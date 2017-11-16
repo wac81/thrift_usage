@@ -14,6 +14,7 @@ thrift --gen py helloworld.thrift
 
 ### you can use helloworld.thrift below
 
+```python
 const string HELLO_IN_KOREAN = "an-nyoung-ha-se-yo"
 const string HELLO_IN_FRENCH = "bonjour!"
 const string HELLO_IN_JAPANESE = "konichiwa!"
@@ -23,7 +24,7 @@ service HelloWorld {
     string sayHello(),
     string sayMsg(1:string msg)
 }
-
+```
 
 ## 3.then you can start server and client like that:
 python helloserver.py
