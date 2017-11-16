@@ -1,7 +1,8 @@
 # thrift usage in python 2.7
 
-### base on:
+### i fixed some issue and base on:
 http://tkang.blogspot.com/2010/07/thrift-server-client-in-python.html
+
 
 ## 1.you install thirft at first:
 use

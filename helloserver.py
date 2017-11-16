@@ -26,8 +26,7 @@ class HelloWorldHandler:
  
   def sayMsg(self, msg):
     print "sayMsg(" + msg + ")"
-    return 'dfasdfasd'
-    # return "say " + msg + " from " + socket.gethostbyname(socket.gethostname())
+    return "say " + msg + " from " + socket.gethostbyname(socket.gethostname())
  
 handler = HelloWorldHandler()
 processor = HelloWorld.Processor(handler)
