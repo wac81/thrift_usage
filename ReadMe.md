@@ -28,9 +28,10 @@ service HelloWorld {
 ```
 
 ## 3.then you can start server and client like that:
+```python
 python helloserver.py
 python helloclient.py
-
+```
 
 ## 4.you can know about JAVA example here:
 http://thrift-tutorial.readthedocs.io/en/latest/usage-example.html#java-multiplication-server
