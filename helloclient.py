@@ -31,8 +31,8 @@ try:
   client.ping()
   print "ping()"
  
-  # msg = client.sayHello()
-  # print msg
+  msg = client.sayHello()
+  print msg
   msg = client.sayMsg(HELLO_IN_KOREAN)
   print msg
  
